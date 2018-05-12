@@ -23,7 +23,7 @@ p {
   line-height: 1.8;
   font-weight: regular;
   letter-spacing: 0px;
-  color: #333;
+  /* color: #333; */
 
 
 }
@@ -272,7 +272,10 @@ p {
 
 } 
 
+.filter {
+  left:-100px;
 
+} 
 
 .filter a {
   color: fff;
@@ -450,18 +453,55 @@ padding: 0;
 
 }
 
-
 .copyrightSection {
+  font-family: 'Libre Baskerville', serif;
 	background-color: #000;
 	color: #fff;
 	padding: 30px 5px;
 }
 
-.copyrightSection p {
-	margin: 0;
+.copyrightSectionA {
+  font-family: 'Libre Baskerville', serif;
+  color: #fff;
+  margin: 0;
+  padding: 1px 1px;
+  display: inline-block;
+  margin-top: 20px;
 }
 
+.copyrightSectionA:hover { 
+  color: #ffda79;
+  text-decoration: none;
+}
 .portIcon {
   vertical-align: text-top;
+}
 
+.navbar {
+  font-family: 'Libre Franklin', sans-serif;
+  color: #333;
+  background-color: rgb(255, 196, 18);
+  padding: 20px 10px;
+  z-index: 100;
+
+}
+
+.navbar a {
+  font-family: 'Libre Franklin', sans-serif;
+  color: #333;
+  z-index: 100;
+
+}
+
+.navbar-toggler-icon {
+  color: #333;
+  z-index: 100;
+  background: url(../img/burger.png);
+  background-size: 100%;
+}
+
+.fixedNav #navigation {
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
