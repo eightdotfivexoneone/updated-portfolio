@@ -7,7 +7,7 @@ $(document).ready(function() {
 	});
 
 	var typed = new Typed(".typed", {
-		strings: ["Design &amp; Development.", "NOTE: Everything in here is FPO.", "Scroll down."],
+		strings: ["Design.", "&amp; Design Direction.", "&amp; Design Process &amp; Thinking.", "&amp; a working knowlege of development."],
 		typeSpeed: 70,
 		loop: true,
 		startDelay: 1000,
